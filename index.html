@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1/style.css">
+    <script src="https://kit.fontawesome.com/a79b32e3f5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="style1/images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I' am <span class="typing"></span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="style1/images/telegram2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello, guys myself Mohit kumar.<br>
+                        I am student of btech 2nd yr (information technology).<br>
+                        I am student Indian instititute of information technology.<br>
+                        I have done my schooling from Army Public School S.P marg.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>designing web interfaces</li>
+                            <li><span>WEB DEVELOPMENT</span><br>web development using HTML,CSS ,and JS </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2018 - 2022</span><br>designing web interfaces</li>
+                            <li><span>2018 </span><br>c++</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Btech (IT)</li>
+                            <li><span>2019-2020</span><br>intermidiate(12th) </li>
+                            <li><span>2017-2018</span><br>high school (10th)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>we provide web design and web maintainence</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>we also provide UI/UX design</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App design</h2>
+                    <p>we also provide App </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="style1/images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Networking website</h3>
+                        <p>Social media is used every day to meet new people, stay in touch with loved ones, reconnect
+                            with old friends</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="style1/images/work-2.png">
+                    <div class="layer">
+                        <h3>Online shopping</h3>
+                        <p>Over the years, online shopping has increased due to convenience and offers that are
+                            sometimes only available online</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="style1/images/work-3.png">
+                    <div class="layer">
+                        <h3>Music website</h3>
+                        <p>It's good for your head. It has long been scientifically proven that making music can
+                            positively affect the brain and nervous system.</p>
+                        <a href="https://mohitlucifer.github.io/Music_player/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mohit8737kumar@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>9026981601</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100013915963968"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/mohit_kumar_real/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/mohit-kumar-083a00228/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="style1/images/my-CV (2).pdf" download class="btn btn2">download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="/" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @made by <i class="fa-solid fa-bolt"></i>MK</p>
+        </div>
+    </div>
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendemail() {
+            Email.send({
+                Host: "smtp.elasticgamil.com",
+                Username: "mohit8737kumar@gmail.com",
+                Password: "111CB5561B6C2D1B8DC32F2D680EFC94C3C4",
+                To: 'mohit8737kumar@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "TNew Contact Form",
+                Body: "name:" + document.getElementById("Name").value 
+                +"<br> Email : " + document.getElementById("email").value
+                +"<br> Message:" + document.getElementById("Message").value
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script> -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        //var element1 = tablinks.classList;
+        //console.log(element1);
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        //var element2 = tabcontents.classList;
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+                // element1.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+                //element2.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+    <!-- <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz-Bv3FY7gstxObyX4AEVtv_WozDYSHCmc_JFj16y1eOrrxo20BFmwLhAhJ8kKxPGZp/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script> -->
+    <script>
+        var typed = new Typed(".typing", {
+            strings: ["Mohit Kumar", "Developer", "Designer", "Freelancer", "Learner"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+
+</body>
+
+</html>
