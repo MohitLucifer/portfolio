@@ -5,7 +5,7 @@ var smtpTransport = require('nodemailer-smtp-transport')
 
 const app = express();
 console.log(__dirname);
-app.use(express.static(__dirname));// this we get all our static content to be visible on our website ..
+app.use(express.static(__dirname));// this we get all our static content to be visible on our website 
 app.use(bodyparser.urlencoded({ extended: true }));
 
 
