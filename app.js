@@ -39,7 +39,7 @@ app.post("/", function (req, res) {
             console.log(error);
         }
         else {
-            res.redirect("/");
+            res.sendFile(__dirname + "/confirmation.html");
             console.log("email sent" + info.response);
         }
     })
