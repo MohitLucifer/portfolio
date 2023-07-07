@@ -9,6 +9,25 @@
     <script src="https://kit.fontawesome.com/a79b32e3f5.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <title>My Portfolio</title>
+    <style>
+        p {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #fffcfc;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        
+        br {
+            display: block;
+            margin: 10px 0;
+            content: "";
+        }
+        
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,7 +38,7 @@
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#services">Skills</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -27,7 +46,6 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>UI/UX Designer</p>
                 <h1>Hi, I' am <span class="typing"></span><br>from India</h1>
             </div>
         </div>
@@ -41,10 +59,17 @@
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
                     <p>
-                        Hello, guys myself Mohit kumar.<br>
-                        I am student of btech 2nd yr (information technology).<br>
-                        I am student Indian instititute of information technology.<br>
+                        Hello,Myself Mohit kumar.I am student of btech 3rd year (information technology).
+                        I am student of Indian instititute of information technology, Allahabad.
                         I have done my schooling from Army Public School S.P marg.
+                        As a passionate and enthusiastic web developer, I am eager to kick-start my career in the dynamic field of web development. 
+                        With a strong foundation in HTML, CSS, and JavaScript, I am excited to apply my knowledge and skills to create engaging and user-friendly websites.
+                        I gained hands-on experience in developing responsive web pages and exploring various web technologies. 
+                        I have a solid understanding of front-end development principles and have worked on projects using frameworks like React and Bootstrap.
+                        I am a  learner and enjoy staying updated with the latest trends and advancements in web development. I am eager to expand my skill set and dive deeper into back-end technologies such as Node.js and databases like MySQL.
+                        In addition to technical skills, I possess excellent problem-solving abilities and a meticulous attention to detail.
+                        I enjoy working collaboratively in a team, as it allows me to learn from experienced professionals and contribute to the success of a project.
+
                     </p>
                     <div class="tab-titles">
                         <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
@@ -53,21 +78,17 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>designing web interfaces</li>
-                            <li><span>WEB DEVELOPMENT</span><br>web development using HTML,CSS ,and JS </li>
+                            <li><span>WEB DEVELOPMENT</span><br>Libraries/Frameworks I have experience with Node.js ,ReactJS, Bootstrap, MaterialUI. </li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2018 - 2022</span><br>designing web interfaces</li>
-                            <li><span>2018 </span><br>c++</li>
-                        </ul>
+                
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2021-2025</span><br>Btech (IT)</li>
-                            <li><span>2019-2020</span><br>intermidiate(12th) </li>
-                            <li><span>2017-2018</span><br>high school (10th)</li>
+                            <li><span>2021-present</span><br>Btech (IT)</li>
+                            <li><span>2019-2020</span><br>intermidiate(12th) - 95.2% </li>
+                            <li><span>2017-2018</span><br>high school (10th) - 94.4% </li>
                         </ul>
                     </div>
                 </div>
@@ -76,24 +97,24 @@
     </div>
     <div id="services">
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
+            <h1 class="sub-title">Skills</h1>
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>we provide web design and web maintainence</p>
+                    <p>learning Web development and designing</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-sharp fa-solid fa-crop"></i>
                     <h2>UI/UX</h2>
-                    <p>we also provide UI/UX design</p>
+                    <p>UI/UX design</p>
                     <a href="#">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-app-store"></i>
                     <h2>App design</h2>
-                    <p>we also provide App </p>
+                    <p> App </p>
                     <a href="#">Learn more</a>
                 </div>
             </div>
@@ -106,19 +127,19 @@
                 <div class="work">
                     <img src="style1/images/work-1.png">
                     <div class="layer">
-                        <h3>Social Networking website</h3>
+                        <h3>Talk_On</h3>
                         <p>Social media is used every day to meet new people, stay in touch with loved ones, reconnect
                             with old friends</p>
-                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/MohitLucifer/Talk-On"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="style1/images/work-2.png">
                     <div class="layer">
-                        <h3>Online shopping</h3>
+                        <h3>E-Commerce website</h3>
                         <p>Over the years, online shopping has increased due to convenience and offers that are
                             sometimes only available online</p>
-                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://shiny-gold-tank-top.cyclic.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -150,7 +171,7 @@
                         <a href="https://www.linkedin.com/in/mohit-kumar-083a00228/"><i
                                 class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="style1/images/my-CV (2).pdf" download class="btn btn2">download CV</a>
+                    <a href="https://drive.google.com/file/d/1uysudOYSk9ZOln4ZYCZ-UCUC4O23lL21/view?usp=sharing" download class="btn btn2">download CV</a>
                 </div>
                 <div class="contact-right">
                     <form action="/" method="POST">
